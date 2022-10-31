@@ -10,7 +10,7 @@ object Main {
       val contents = get_contents_from_url(args(0))
 
       contents.foreach(println)
-      println("---------------------")   
+      println("----------------------")   
     }
 
     def get_contents_from_url(url: String): List[String] = {
